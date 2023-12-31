@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    padding-top: 6rem;
+}

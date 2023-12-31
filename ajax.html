@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX HTML</title>
+
+    <style>
+        html, body{
+            height: 100%;
+        }
+        body{
+            text-align: center;
+            padding : 2rem 0rem;
+        }
+        .color{
+            background-color: aqua;
+        }
+        .kotak{
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .merah {
+            background-color: red;
+        }
+        .hijau{
+            background-color: greenyellow;
+        }
+        .biru{
+            background-color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 id="h1">Bermain Dengan Warna</h1>
+
+    <button type="button" id="ubah-warna"></button>
+
+
+
+    <br><br>
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="1" max="225">
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="1" max="225">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="1" max="225">
+
+    <script src="/takumi/ajax.js"></script>
+</body>
+</html>
